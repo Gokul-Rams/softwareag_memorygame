@@ -1,15 +1,17 @@
-# softwareag_memorygame
+The source of the Project found in src folder
 
 Author: Gokul R
 	Kongu Engineering College
 
+Clone the project from git hub repo
+	https://github.com/Gokul-Rams/softwareag_memorygame
 Developer Help:
 
 Developed using Java Swing,Singlton object is used to energize the game flow ,Singlton
 resource points to same memeory through the life time of the application the advantage
-of using singloten object is it's ascessable from any UI part at any time.
+of using singleton object is it's ascessable from any UI part at any time.
 The communication between different UI components is achived using Listners
-implemented using Interfaces, Here the Game begomes more agile and Changes on an
+implemented using Interfaces, Here the Game becomes more agile and Changes on an
 UI part can be under a single function,which can be modified on changing requirements.
 JFrame is the base of the application to which Panel are added depending upon
 the operation
@@ -26,7 +28,7 @@ Resources images are subjected to licensing and not commercially available used 
 for developing purposes for this interview
 
 For complete details on Methods and classes can generate JAVADOC from any IDE
-available have also added inline docs to methods and classes..
+available,have also added inline docs to methods and classes..
 
 Package Structure
 	src
